@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.grid {
+    
+    flex-flow:column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    background: yellow;
+    border: 5px solid rgb(99, 212, 212);
+    width: 150px;
+    height: 150px;
+}   
+
+.control {
+    max-width: 450px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between; 
+    margin: 15px;
+}
+span {
+    width: 30%;
+    
+}
+button {
+    width: 30%;
+   
+}
