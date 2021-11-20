@@ -1,12 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+#startScreen {
+    font-family: 'Gamja Flower', cursive;
+    color:#aa93c7;
+    font-size: 70px;
+    padding: 20px;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+#show-btn {
+    font-size: 25px;
+    font-family: 'Gamja Flower', cursive;
+    border: 10px dashed cadetblue; 
+    color: chocolate;
+}
+
+
 body {
-    margin: 0;
+    margin: 70px;
     display: flex;
     justify-content: center;
     height: 100px;
 }
 
 .grid {
-    
     flex-flow:column nowrap;
     align-items: center;
     justify-content: center;
@@ -14,23 +34,64 @@ body {
 
 .square {
     background: yellow;
-    border: 5px solid rgb(99, 212, 212);
+    border: 5px solid #aa93c7;
     width: 150px;
     height: 150px;
 }   
 
-.control {
+.control-panel {
     max-width: 450px;
     display: flex;
     justify-content: space-around;
     justify-content: space-between; 
     margin: 15px;
 }
+
+.time-msg {
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
+
+}
+
 span {
     width: 30%;
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
     
 }
-button {
+#start-btn {
     width: 30%;
-   
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
+    color:chocolate;
+    border: 5px dashed cadetblue;
 }
+
+#play-btn {
+    width: 30%;
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
+    color:chocolate;
+    border: none;
+    position: fixed;
+    top: 35%;
+}
+
+#yourScore {
+    color:chocolate;
+    font-size: 20px;
+    position: fixed;
+    top: 30%;
+    text-align: center;
+}
+
+#time-up {
+    font-family: 'Gamja Flower', cursive;
+    color:#aa93c7;
+    font-size: 50px;
+    position: fixed;
+    top: 20%;
+    width: 30%;
+    text-align: center;
+}
+
