@@ -1,5 +1,5 @@
 var btn = document.getElementById("start-btn");//find input
-var gameOverBtn = document.getElementById("game-over-btn");
+var gameOverBtn = document.getElementById("game-over-btn"); //find button
 var playBtn = document.getElementById("play-btn")
 var time = document.getElementById("time");
 var score = document.getElementById("score");
@@ -12,8 +12,8 @@ var sec = 0;
 var count = 0;
 var yellowbg = new Array();
 var corgi = document.getElementsByClassName("square");
-const TIMER = 30;
-const LOOP_AMOUNT = 50; 
+const TIMER = 30; //specify time
+const LOOP_AMOUNT = 50; //specify amount of times for loop
 
 function gamestart() { 
   flag = 1; count = 0; sec = TIMER;
